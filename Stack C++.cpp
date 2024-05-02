@@ -94,6 +94,7 @@ void app()
 			break;
 		case 2:
 			cout << "Are you sure to pop one node\n";
+			cout << "To Confirm Enter -> (1)\n";
 			cout << "To Cancel Enter -> any key\n";
 			cin >> c;
 			if (c == 1)
@@ -108,6 +109,7 @@ void app()
 			break;
 		case 3:
 			cout << "Are you sure to pop all nodes\n";
+			cout << "To Confirm Enter -> (1)\n";
 			cout << "To Cancel Enter -> any key\n";
 			cin >> c;
 			if (c == 1)
